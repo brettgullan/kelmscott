@@ -27,7 +27,8 @@
     "url": "git+https://github.com/brettgullan/kelmscott.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "bugs": {
     "url": "https://github.com/brettgullan/kelmscott/issues"
