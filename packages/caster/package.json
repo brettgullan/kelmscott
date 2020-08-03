@@ -1,0 +1,42 @@
+{
+  "name": "caster",
+  "version": "0.0.0",
+  "description": "Utility library for transforming JSON data.",
+  "keywords": [
+    "json",
+    "cast",
+    "transform",
+    "transformation",
+    "map",
+    "mapping",
+    "path"
+  ],
+  "author": "Brett Gullan <brettgullan@mac.com>",
+  "homepage": "https://github.com/brettgullan/kelmscott",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettgullan/kelmscott.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/brettgullan/kelmscott/issues"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1",
+    "ramda-adjunct": "^2.27.0"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
+}
