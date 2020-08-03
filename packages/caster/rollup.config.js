@@ -4,6 +4,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 import analyze from 'rollup-plugin-analyzer'
+import visualizer from 'rollup-plugin-visualizer'
 
 // ----------------------------------------------------------------------------
 
@@ -23,6 +24,7 @@ export default [
         file: pkg.main,
         format: 'cjs',
         sourcemap: true,
+        exports: 'named',
       },
       {
         file: pkg.module,
@@ -38,9 +40,13 @@ export default [
       commonjs(),
       babel({
         exclude: /node_modules/,
+        babelHelpers: 'runtime',
       }),
       terser(),
-      analyze({ summaryOnly: true }),
+      analyze({
+        summaryOnly: true
+      }),
+      visualizer(),
     ],
   },
 ]
