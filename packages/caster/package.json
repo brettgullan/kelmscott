@@ -1,6 +1,9 @@
 {
   "name": "caster",
   "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Utility library for transforming JSON data.",
   "keywords": [
     "json",
@@ -16,11 +19,11 @@
   "license": "MIT",
   "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "/dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "/dist"
   ],
   "repository": {
     "type": "git",
