@@ -1,3 +1,6 @@
 node_modules
 coverage
 /packages/caster/dist
+.DS_Store
+.vscode
+/packages/caster/stats.html
