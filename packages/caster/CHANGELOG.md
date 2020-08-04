@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/brettgullan/kelmscott/compare/@kelmscott/caster@0.1.1...@kelmscott/caster@0.1.2) (2020-08-04)
+
+
+### Bug Fixes
+
+* Incorrect export ([b9e5daf](https://github.com/brettgullan/kelmscott/commit/b9e5dafb3fbd9c832a4834a8444a164d13c7ba4b))
+
+
+
+
+
 ## [0.1.1](https://github.com/brettgullan/kelmscott/compare/@kelmscott/caster@0.1.0...@kelmscott/caster@0.1.1) (2020-08-04)
 
 
