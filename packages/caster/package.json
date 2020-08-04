@@ -18,6 +18,7 @@
   "homepage": "https://github.com/brettgullan/kelmscott",
   "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "directories": {
     "lib": "/dist",
     "test": "__tests__"
@@ -37,13 +38,29 @@
     "url": "https://github.com/brettgullan/kelmscott/issues"
   },
   "dependencies": {
+    "@babel/runtime": "^7.11.0"
+  },
+  "peerDependencies": {
     "ramda": "^0.27.1",
     "ramda-adjunct": "^2.27.0",
     "traverse": "^0.6.6"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
     "babel-jest": "^26.2.2",
-    "jest": "^26.2.2"
+    "jest": "^26.2.2",
+    "ramda": "^0.27.1",
+    "ramda-adjunct": "^2.27.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-analyzer": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-visualizer": "^4.0.4",
+    "traverse": "^0.6.6"
   }
 }
