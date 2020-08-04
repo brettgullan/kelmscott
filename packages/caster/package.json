@@ -1,5 +1,5 @@
 {
-  "name": "caster",
+  "name": "@kelmscott/caster",
   "version": "0.0.0",
   "publishConfig": {
     "access": "public"
@@ -31,6 +31,7 @@
     "url": "git+https://github.com/brettgullan/kelmscott.git"
   },
   "scripts": {
+    "build": "rollup -c rollup.config.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
