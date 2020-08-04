@@ -70,11 +70,12 @@ const result = compose(
 )(source)
 ```
 
-A transformation can be a function or a plain javascript object. The array of transformers may contain any combination of functions and objects. Caster processes each in order, from first to last.
+A transformation can be a function or a plain javascript object. The array of transformations may contain any combination of functions and objects. Caster processes each in order, from first to last.
 
 ### Transformer Functions
 
-A function must accept a source object (JSON) and return a modified (JSON) object.
+A function must accept a source object (JSON) and return an object (JSON).
+It is recommended that transformer functions do not mutate the source object, although this is up to you.
 
 ```javascript
 export const transformerFn = (source) => {
@@ -88,7 +89,7 @@ export const transformerFn = (source) => {
 
 ### Transformer Specs
 
-If a transformation is described using an object, this is passed to Ramda's `evolve` function.
+If a transformation is described using an object, this is passed to Ramda's [evolve](https://ramdajs.com/docs/#evolve) function.
 
 ```javascript
 export const transformerSpec = {
@@ -96,7 +97,7 @@ export const transformerSpec = {
   anotherField: upper,
   anArrayField: map(filter(someFilterFn)),
   anObjectField: {
-    someOtherField: compose(last, split('_)),
+    someOtherField: compose(last, split('_')),
   }
 }
 ```
