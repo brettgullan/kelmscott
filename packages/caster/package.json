@@ -12,7 +12,12 @@
     "transformation",
     "map",
     "mapping",
-    "path"
+    "path",
+    "frontend",
+    "front-end",
+    "component",
+    "components",
+    "utils"
   ],
   "author": "Brett Gullan <brettgullan@mac.com>",
   "homepage": "https://github.com/brettgullan/kelmscott",
