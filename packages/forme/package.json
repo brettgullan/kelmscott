@@ -1,6 +1,6 @@
 {
   "name": "@kelmscott/forme",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A configurable React factory component for generating a component tree from a JSON specification.",
   "keywords": [
     "react",
