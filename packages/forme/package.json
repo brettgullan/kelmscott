@@ -1,0 +1,67 @@
+{
+  "name": "@kelmscott/forme",
+  "version": "0.0.0",
+  "description": "A configurable React factory component for generating a component tree from a JSON specification.",
+  "keywords": [
+    "react",
+    "component",
+    "components",
+    "ui",
+    "frontend",
+    "front-end",
+    "JSON",
+    "static",
+    "site",
+    "generator",
+    "SSG",
+    "Next.js",
+    "Gatsby"
+  ],
+  "author": "Brett Gullan <brettgullan@mac.com>",
+  "homepage": "https://github.com/brettgullan/kelmscott",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "directories": {
+    "lib": "/dist"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brettgullan/kelmscott.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/brettgullan/kelmscott/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-analyzer": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-visualizer": "^4.0.4"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
