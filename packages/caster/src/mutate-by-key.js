@@ -4,7 +4,7 @@ import traverse from 'traverse'
 //-----------------------------------------------------------------------------
 
 /**
- * Walk the specified source object and mutate any key that matches target.
+ * Walk the specified source object and mutate any value for key that matches target.
  *
  * @param {string|RegExp} target 
  * @param {function} mutator function to mutate target
