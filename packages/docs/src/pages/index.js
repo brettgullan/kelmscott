@@ -1,10 +1,10 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from 'react'
+import clsx from 'clsx'
+import Layout from '@theme/Layout'
+import Link from '@docusaurus/Link'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import useBaseUrl from '@docusaurus/useBaseUrl'
+import styles from './styles.module.css'
 
 const features = [
   {
@@ -37,10 +37,10 @@ const features = [
       </>
     ),
   },
-];
+]
 
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
+function Feature({ imageUrl, title, description }) {
+  const imgUrl = useBaseUrl(imageUrl)
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
@@ -51,16 +51,17 @@ function Feature({imageUrl, title, description}) {
       <h3>{title}</h3>
       <p>{description}</p>
     </div>
-  );
+  )
 }
 
 function Home() {
-  const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const context = useDocusaurusContext()
+  const { siteConfig = {} } = context
   return (
     <Layout
       title={siteConfig.tagline}
-      description="Developer tools for digital content publishing.">
+      description="Developer tools for digital content publishing."
+    >
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <div className="text--center">
@@ -72,14 +73,16 @@ function Home() {
             <Link
               className={clsx(
                 'button button--secondary button--lg',
-                styles.getStarted,
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/')}
+            >
               Get Started
             </Link>
           </div>
         </div>
       </header>
+      {/*
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
@@ -93,8 +96,9 @@ function Home() {
           </section>
         )}
       </main>
+      */}
     </Layout>
-  );
+  )
 }
 
-export default Home;
+export default Home
