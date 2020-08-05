@@ -1,8 +1,26 @@
 # `@kelmscott/caster`
 
+
+<div>
+  <!-- NPM Version -->
+  <a href="https://www.npmjs.com/package/@kelmscott/caster" title="Current version">
+    <img src="https://img.shields.io/npm/v/@kelmscott/caster.svg" alt="NPM Version">
+  </a>
+  <!-- License -->
+  <a href="https://github.com/brettgullan/kelmscott/blob/master/packages/caster/LICENSE" title="MIT license">
+    <img alt="NPM License" src="https://img.shields.io/npm/l/@kelmscott/caster">
+  </a>
+</div>
+
+
+
 Kelmscott **Caster** is a utility library for transforming and reshaping JSON data.
 
 It comprises a `cast` function (the default export) and a number of pre-built utility transformation functions that are commonly required when re-shaping JSON data.
+
+
+For complete documentation, see [Kelmscott.digital](https://kelmscott.digital/docs/caster).
+
 
 ## About
 
