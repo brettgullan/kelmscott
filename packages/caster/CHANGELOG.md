@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/brettgullan/kelmscott/compare/@kelmscott/caster@0.1.5...@kelmscott/caster@0.1.6) (2020-08-05)
+
+
+### Bug Fixes
+
+* Grammatical ([efe38d0](https://github.com/brettgullan/kelmscott/commit/efe38d07e5e80b63d8087a76c9236b6f911528c2))
+
+
+
+
+
 ## [0.1.5](https://github.com/brettgullan/kelmscott/compare/@kelmscott/caster@0.1.4...@kelmscott/caster@0.1.5) (2020-08-05)
 
 **Note:** Version bump only for package @kelmscott/caster
