@@ -1,6 +1,9 @@
 {
   "name": "@kelmscott/forme",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A configurable React factory component for generating a component tree from a JSON specification.",
   "keywords": [
     "react",
@@ -63,5 +66,6 @@
   },
   "peerDependencies": {
     "react": "^16.13.1"
-  }
+  },
+  "gitHead": "2b85b005d0d02cf1c4edf39c4d84546ac9de9780"
 }

@@ -69,5 +69,6 @@
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-visualizer": "^4.0.4",
     "traverse": "^0.6.6"
-  }
+  },
+  "gitHead": "2b85b005d0d02cf1c4edf39c4d84546ac9de9780"
 }
