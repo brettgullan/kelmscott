@@ -4,3 +4,5 @@ coverage
 .DS_Store
 .vscode
 /packages/caster/stats.html
+dist
+/packages/forme/stats.html
