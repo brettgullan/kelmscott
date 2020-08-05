@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Kelmscott',
   tagline: 'Developer tools for digital content publishing.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kelmscott.digital',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'favicon.ico',
-  organizationName: 'kelmscott', // Usually your GitHub org/user name.
+  organizationName: 'brettgullan', // Usually your GitHub org/user name.
   projectName: 'kelmscott', // Usually your repo name.
   themeConfig: {
     colorMode: {
@@ -93,7 +93,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/brettgullan/kelmscott',
+            'https://github.com/brettgullan/kelmscott/blob/master/packages/docs',
         },
         blog: {
           showReadingTime: true,
