@@ -1,10 +1,17 @@
-# Kelmscott
+
+<div align="center" style="margin: 2em;">
+  <img src="./assets/kelmscott-stacked.png" width="50%" />
+</div>
 
 Kelmscott combines a range of best-of-breed technologies and methodologies to provide an architecture for building rich content-driven experiences — on the web, on mobile and beyond. 
 
+Visit [Kelmscott.digital](https://kelmscott.digital).
+
 ---
 
-## Building Packages
+## Development
+
+### Building Packages
 
 Use **Lerna** to build packages, e.g.:
 
