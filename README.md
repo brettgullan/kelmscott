@@ -1,6 +1,6 @@
 
 <div align="center" style="padding: 2em;">
-  <img src="./assets/kelmscott-stacked.png" width="50%" />
+  <img src="./assets/kelmscott-stacked.png" style="margin: 2em;" width="50%" />
 </div>
 
 Kelmscott combines a range of best-of-breed technologies and methodologies to provide an architecture for building rich content-driven experiences — on the web, on mobile and beyond. 
