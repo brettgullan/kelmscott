@@ -1,5 +1,5 @@
 
-<div align="center" style="margin: 2em;">
+<div align="center" style="padding: 2em;">
   <img src="./assets/kelmscott-stacked.png" width="50%" />
 </div>
 
