@@ -9,6 +9,9 @@ module.exports = {
     ],
     Forme: [
       'forme/index',
+      'forme/installation',
+      'forme/usage',
+      'forme/example',
     ],
   },
 };

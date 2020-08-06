@@ -11,6 +11,9 @@ module.exports = {
     colorMode: {
       disableSwitch: true,
     },
+    prism: {
+      // theme: require('prism-react-renderer/themes/github'),
+    },
     navbar: {
       title: 'Kelmscott',
       logo: {
